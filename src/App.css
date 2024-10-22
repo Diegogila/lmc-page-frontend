@@ -1,0 +1,37 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html{
+    font-family: 'Quicksand';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+body{
+    min-height: 100vh; /* Asegura que el body ocupe al menos el 100% de la altura del viewport */
+  display: flex;
+  flex-direction: column;
+    background-color: var(--background);
+}
+
+header,section,footer{
+    width: 100%;
+    padding: 0 100px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    border: none;
+}
+

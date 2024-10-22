@@ -3,7 +3,7 @@ import './CallToAction.css'
 
 function CallToAction({text}){
     return (
-      <button>{text}</button>
+      <button className="call-to-action">{text}</button>
     );
 }
 
