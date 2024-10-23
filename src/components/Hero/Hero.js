@@ -1,23 +1,32 @@
 import React from "react";
 import './Hero.css'
+import nave from '../../assets/images/2.-NAVE---BANNER-1.png'
+import foco from '../../assets/images/2.-FOCO---BANNER-1.png'
 import title from '../../assets/images/2.-FRASE---BANNER-1.png'
 import { CallToAction } from "../CallToAction/CallToAction";
 
 function Hero(){
     return (
-      <section className="hero">
-        <div className="hero__content">
-          <div className="hero__title">
-            <img src={title} alt="Transformamos tus ideas en realidad" />
+      <>
+        <section className="hero">
+          <div className="hero__content">
+            <div className="hero__title">
+              <img src={title} alt="Transformamos tus ideas en realidad" />
+            </div>
+            <p>
+              Somos una agencia de marketing que ve tu potencial como infinito.<br/>
+              En Let's Move Consulting, convertimos tus ideas en éxitos tangibles,<br/>
+              impulsando el crecimiento de tu negocio.
+            </p>
+            <CallToAction text="Descubre nuestros servicios"/>
           </div>
-          <p>
-            Somos una agencia de marketing que ve tu potencial como infinito. En
-            Let's Move Consulting, convertimos tus ideas en éxitos tangibles,
-            impulsando el crecimiento de tu negocio.
-          </p>
-          <CallToAction text="Descubre nuestros servicios"/>
-        </div>
-      </section>
+          <img className="hero__lightbulb" src={foco} alt="decoracion foco"/>
+          <img className="hero__ship"src={nave} alt="decoracion nave"/>
+        </section>
+        <svg className="curve" width="1440" height="155" viewBox="0 0 1440 155" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 0H1440V155C1440 155 1091 45.1058 720 45.1058C349 45.1058 0 155 0 155V0Z" fill="#7782A5"/>
+        </svg>
+      </>
     );
 }
 

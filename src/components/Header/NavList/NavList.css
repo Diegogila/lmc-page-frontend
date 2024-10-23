@@ -1,0 +1,24 @@
+nav{
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+header nav ul{
+    display: flex;
+    gap: 20px;
+}
+
+.nav__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 58px;
+    padding: 0 16px;
+    color: var(--secondary-color)
+}
+
+.nav__link--focused{
+    border-radius: 50px;
+    background-color: var(--tertiary-color);
+}
