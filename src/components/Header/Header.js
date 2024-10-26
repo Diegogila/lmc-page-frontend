@@ -15,14 +15,13 @@ function Header() {
       window.removeEventListener('resize', handleResize);
     }
   },[]);
-  
-  
+
   return (
     <header className="header">
-        <div className='header__logo'>
-            <img src={logo} alt='Logo'/>
-        </div>
-      {windowWidth > 937 && <NavList/>}
+      <div className='header__logo'>
+          <img src={logo} alt='Logo'/>
+      </div>
+      {windowWidth < 937 ? <NavBurger/> : <NavList/> }
     </header>
   );
 }
