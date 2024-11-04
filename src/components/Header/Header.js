@@ -2,6 +2,7 @@ import './Header.css';
 import logo from '../../assets/images/1.-logo_barra.png'
 import { useEffect, useState } from 'react';
 import { NavList } from './NavList/NavList';
+import { NavBurger } from './NavBurger/NavBurger';
 
 function Header() {
   const [windowWidth, setWindowWidth] = useState('');

@@ -10,7 +10,8 @@
 
 .hero > img{
     position: absolute;
-    width: 200px;
+    width: 50vw;
+    max-width: 250px;
 }
 
 .curve{
@@ -26,7 +27,7 @@
     align-items: center;
 }
 .hero__title{
-    width: 70%;
+    width: 80%;
 }
 
 .hero__title img{
@@ -34,16 +35,31 @@
 }
 
 .hero__content p{
-    font-size: 1.8em;
+    font-size: 1.2em;
     padding-bottom: 40px;
 }
 
 .hero__lightbulb{
-    top: 74px;
+    width: 10vw;
+    top: 0;
     left: 10vw;
 }
 
 .hero__ship{
-    bottom: 74px;
-    right: 170px;
+    bottom: 0;
+    right: 10vw;
 }
+
+@media (min-width: 768px) {
+    html{
+        font-size: 16px;
+    }
+    .hero__title{
+        width: 70%;
+    }
+
+    .hero__content p{
+        font-size: 1.6em;
+        padding: 0 40px 40px 40px;
+    }
+  }

@@ -14,15 +14,15 @@ function NavBurger() {
             className='nav-burger__button'
             onClick={toggleMenu}
             ></button>
-            <div className='nav-burguer__menu'>
+            <div className={`nav-burger__menu ${menuOpened ? 'nav-burger__menu--open':""}`}>
                 <nav>
                     <a
-                    href='#'
-                    style="animation-delay: 0.2s"
+                    href='#Home'
+                    style={{animationDelay: '0.2s'}}
                     >Servicios</a>
                     <a
-                    href='#'
-                    style="animation-delay: 0.3s"
+                    href='#Nos'
+                    style={{animationDelay: '0.3s'}}
                     >Nosotros</a>
                 </nav>
             </div>

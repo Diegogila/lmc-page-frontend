@@ -14,8 +14,8 @@ function Hero(){
               <img src={title} alt="Transformamos tus ideas en realidad" />
             </div>
             <p>
-              Somos una agencia de marketing que ve tu potencial como infinito.<br/>
-              En Let's Move Consulting, convertimos tus ideas en éxitos tangibles,<br/>
+              Somos una agencia de marketing que ve tu potencial como infinito.
+              En Let's Move Consulting, convertimos tus ideas en éxitos tangibles,
               impulsando el crecimiento de tu negocio.
             </p>
             <CallToAction text="Descubre nuestros servicios"/>
