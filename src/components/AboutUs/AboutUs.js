@@ -1,6 +1,8 @@
 import React from "react";
 import './AboutUs.css'
 import { CallToAction } from "../CallToAction/CallToAction";
+import left_photo from '../../assets/images/foto-izquierda.png'
+import right_photo from '../../assets/images/foto-derecha.png'
 
 function AboutUs(){
     return (
@@ -13,6 +15,8 @@ function AboutUs(){
           conecten con tu audiencia y generen resultados impactantes.
         </p>
         <CallToAction text="Conocenos mas"/>
+        <img className="image-left" src={left_photo} alt="Mariel y Sam"/>
+        <img className="image-right" src={right_photo} alt="Mariel y Sam"/>
       </section>
     );
 }

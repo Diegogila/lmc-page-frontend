@@ -1,0 +1,22 @@
+.about-us{
+    position: relative;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.about-us h1{
+    font-size: 2.0em;
+}
+
+.about-us img{
+    position: absolute;
+    width: 50vw;
+}
+
+.image-left{
+    
+}

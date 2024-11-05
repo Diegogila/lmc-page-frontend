@@ -1,8 +1,8 @@
 .call-to-action{
     display: flex;
     align-items: center;
-    height: 44px;
-    padding: 24px;
+    max-height: 44px;
+    padding: 2vh;
     font-size: 1.2em;
     border-radius: 50px;
     background-color: var(--tertiary-color);

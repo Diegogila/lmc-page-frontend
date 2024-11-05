@@ -8,12 +8,6 @@
     text-align: center;
 }
 
-.hero > img{
-    position: absolute;
-    width: 50vw;
-    max-width: 250px;
-}
-
 .curve{
     width: 100%;
     height: auto;
@@ -22,15 +16,12 @@
 
 
 .hero__content{
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .hero__title{
-    width: 80%;
-}
-
-.hero__title img{
     width: 100%;
 }
 
@@ -39,15 +30,20 @@
     padding-bottom: 40px;
 }
 
-.hero__lightbulb{
-    width: 10vw;
-    top: 0;
-    left: 10vw;
+.hero__icon{
+    position: absolute;
+    width: 40vw;
+    max-width: 200px;
 }
 
-.hero__ship{
-    bottom: 0;
-    right: 10vw;
+.hero__icon--lightbulb{
+    top: -20vh;
+    left: 0vw;
+}
+
+.hero__icon--ship{
+    bottom: -20vh;
+    right: 0vw;
 }
 
 @media (min-width: 768px) {
