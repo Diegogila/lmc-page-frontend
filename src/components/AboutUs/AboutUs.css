@@ -1,22 +1,45 @@
 .about-us{
-    position: relative;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    place-items: center;
     height: 100vh;
 }
 
-.about-us h1{
-    font-size: 2.0em;
+.about-us__content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    row-gap: 24px;
 }
 
-.about-us img{
+
+.about-us__content h1{
+    font-size: 2.4em;
+    font-family: 'Storystone';
+    font-weight: 400;
+}
+
+.about-us__content img{
     position: absolute;
-    width: 50vw;
+    width: 30vw;
+    min-width: 200px;
+    max-width: 398px;
 }
 
 .image-left{
-    
+    top: -30vw;
+    left: 0;
+}
+
+.image-right{
+    bottom: -30vw;
+    right: 0;
+}
+
+
+@media (min-width: 768px){
+    .about-us__content{
+        width: 70%;
+    }
 }
