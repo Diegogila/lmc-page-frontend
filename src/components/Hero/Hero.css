@@ -37,13 +37,13 @@
 }
 
 .hero__icon--lightbulb{
-    top: -20vh;
-    left: 0vw;
+    top: -150px;
+    left: 0;
 }
 
 .hero__icon--ship{
-    bottom: -20vh;
-    right: 0vw;
+    bottom: -150px;
+    right: 0;
 }
 
 @media (min-width: 768px) {
@@ -51,7 +51,7 @@
         font-size: 16px;
     }
     .hero__title{
-        width: 70%;
+        width: 50%;
     }
 
     .hero__content p{

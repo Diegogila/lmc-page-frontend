@@ -14,26 +14,33 @@
 }
 
 
-.about-us__content h1{
-    font-size: 2.4em;
-    font-family: 'Storystone';
-    font-weight: 400;
+.about-us__title{
+    width: 100%;
 }
 
-.about-us__content img{
+.about-us__content p{
+    font-size: 1.6em;
+}
+
+.about-us__image{
     position: absolute;
     width: 30vw;
     min-width: 200px;
     max-width: 398px;
 }
 
+.about-us svg{
+    position: absolute;
+    height: 150vh;
+}
+
 .image-left{
-    top: -30vw;
+    top: -200px;
     left: 0;
 }
 
 .image-right{
-    bottom: -30vw;
+    bottom: -200px;
     right: 0;
 }
 
@@ -42,4 +49,18 @@
     .about-us__content{
         width: 70%;
     }
+
+    .image-left{
+        top: -300px;
+        left: -200px;
+    }
+    
+    .image-right{
+        bottom: -300px;
+        right: -200px;
+    }
+    .about-us__title{
+        width: 70%;
+    }
+    
 }
